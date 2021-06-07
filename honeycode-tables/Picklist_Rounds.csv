@@ -1,0 +1,3 @@
+Event Round,Related Scores
+Preliminary,"=FILTER(Scores,""Scores[Round]=THISROW()"")"
+Final,"=FILTER(Scores,""Scores[Round]=THISROW()"")"

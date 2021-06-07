@@ -1,0 +1,4 @@
+Composer,Round,Originality,Balance,Emotional,Comments,Average Score,Judge
+Abby,preliminary,5,5,5,,=AVERAGE(Scores[@[Originality]:[Emotional]]),judge1
+Ben,preliminary,3,3,3,,=AVERAGE(Scores[@[Originality]:[Emotional]]),judge1
+Cat,preliminary,4,4,4,,=AVERAGE(Scores[@[Originality]:[Emotional]]),judge1

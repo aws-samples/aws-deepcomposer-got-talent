@@ -1,0 +1,50 @@
+<!-- 
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: MIT-0
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DeepComposer Got Talent</title>
+
+    <link rel="stylesheet" href="css/tables.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet"> 
+
+    <style>
+      body {
+        background-image: url("img/dot-wave.png");
+        background-color: black;
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="box">
+    <div class="headspace" style="margin: 0 auto; text-align: center">
+      <img src="img/md-header.png" width="50%" style="padding: 20px 0px; mix-blend-mode: screen;" />
+      <h1 style="color: #fff; text-shadow: 0px 4px #444; text-transform: uppercase; font-family: 'Squada One', sans-serif; font-size: 3em; font-weight: bold; margin-bottom: 0">DeepComposer&nbsp;Got&nbsp;Talent</h1>
+      <h1 style="color: #aab7b8; font-size: 1em; font-weight: thin; white-space: nowrap;">Event Round &middot; Month Day, Year</h1>
+    </div>
+    <div class="scoreboard">
+        <table
+          class="table table-hover dataTable no-footer dtr-inline"
+          id="m_table_1"
+          data-order='[[2, "desc"]]'
+        ></table>
+        <div style="display: flex; justify-content: flex-end;padding: 12px 12px 12px 0;">
+        <!-- <button>Show the full list</button> -->
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="js/index.js"></script>
+  </div>
+  </body>
+</html>
